@@ -13,6 +13,7 @@
         <module>mall-common</module>
         <module>mall-core</module>
         <module>mall-registry</module>
+        <module>mall-config</module>
     </modules>
 
     <parent>
