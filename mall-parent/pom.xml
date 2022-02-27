@@ -14,6 +14,7 @@
         <module>mall-core</module>
         <module>mall-registry</module>
         <module>mall-config</module>
+        <module>mall-item</module>
     </modules>
 
     <parent>
