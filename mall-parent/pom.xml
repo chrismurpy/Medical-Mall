@@ -15,6 +15,7 @@
         <module>mall-registry</module>
         <module>mall-config</module>
         <module>mall-item</module>
+        <module>mall-upload</module>
     </modules>
 
     <parent>

@@ -22,7 +22,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000 #熔断超时时间
-          strategy: SEMAPHORE
+#          strategy: SEMAPHORE
 
 ribbon:
   ReadTimeout: 60000 #通信超时时间
@@ -40,7 +40,7 @@ spring:
         max-attempts: 10 #最多重试 6 次
   datasource:
     # TODO: 数据库配置
-    url: jdbc:mysql://192.168.2.180:3306/m-Mall?characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&failOverReadOnly=false
+    url: jdbc:mysql://101.34.225.2:3307/mall?characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&failOverReadOnly=false
     username: root
     password: xmf123456
     driver-class-name: com.mysql.jdbc.Driver

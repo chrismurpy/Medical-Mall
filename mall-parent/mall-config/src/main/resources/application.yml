@@ -23,7 +23,7 @@ spring:
         default-label: master
         composite: # 此配置为使用本地文件，与Git脱离关系
           - type: native
-            search-locations: file:/Users/murphy/Downloads/论文/Medical-Mall/mall-parent/config-repo
+            search-locations: /Users/murphy/Downloads/Graduation/Medical-Mall/mall-parent/config-repo
         git: # git配置 - 此处未配置
           uri:
           username:
